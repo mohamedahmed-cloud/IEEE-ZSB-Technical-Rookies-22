@@ -10,6 +10,8 @@ import sys
 def getMoneySpent(keyboards, drives, b):
     #
     # Write your code here.
+    
+    
 #    Strat of my code ##########################################
     list_1=[]
     
@@ -18,11 +20,13 @@ def getMoneySpent(keyboards, drives, b):
         
     for i in keyboards:
         for j in drives:
-            if  b>=i+j :   
+            if  b>=i+j :   # To prevent adding any value bigger that my budget "b"
                 list_1.append(i+j)
-    return max(list_1)
+    return max(list_1)               # Our Output
     
 # ENd of My Code #################################################
+
+
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
