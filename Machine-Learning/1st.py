@@ -1,6 +1,6 @@
 
 
-# first videos
+# first video
 
 import tensorflow as tf
 import matplotlib.pyplot as plt
